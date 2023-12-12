@@ -15,7 +15,7 @@ def demander_nombre(nb_min,nb_max):
         elif nombre_int == NOMBRE_MAGIQUE:
             print("bravo, c'est le bon nombre !")
         else:
-            print(f"putain j'ai dis entre {nb_min} et {nb_max} !")
+            print(f" j'ai dis entre {nb_min} et {nb_max} !")
         return nombre_int
     
 nombre = demander_nombre(NOMBRE_MIN,NOMBRE_MAX)
